@@ -1,0 +1,14 @@
+{
+  "name": "cypress_setup",
+  "version": "1.0.0",
+  "description": "Fremwaork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sunil Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
