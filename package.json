@@ -4,11 +4,21 @@
   "description": "Fremwaork",
   "main": "index.js",
   "scripts": {
+    "cypress": "./node_modules/.bin/cypress open",
+    "test1": "./node_modules/.bin/cypress run --spec E:/cypress_setup/cypress/integration/tests_script/sample_test.js --browser chrome",
+    "allure": "node_modules/.bin/allure generate ./allure-results -c && allure open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sunil Kumar",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.2.0"
+    "@shelex/cypress-allure-plugin": "^2.5.1",
+    "cypress": "^7.2.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^8.3.2",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
   }
 }
